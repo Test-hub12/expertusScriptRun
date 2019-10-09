@@ -1,6 +1,8 @@
 package com.linux.connection;
 import java.io.InputStream;
 
+import org.testng.annotations.Test;
+
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.ChannelExec;
 import com.jcraft.jsch.JSch;
@@ -8,7 +10,8 @@ import com.jcraft.jsch.Session;
 
 public class JSchExampleSSHConnection {
 
-	public static void main(String[] args) {
+	@Test
+	public  void run() {
 		String host="ind-expertus01.emeter.com";
 	    String user="eip";
 	    String password="eippass";
