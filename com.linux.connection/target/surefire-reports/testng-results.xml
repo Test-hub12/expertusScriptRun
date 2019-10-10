@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11812" started-at="2019-10-10T06:20:47Z" finished-at="2019-10-10T06:20:59Z">
+  <suite name="Suite" duration-ms="10873" started-at="2019-10-10T06:29:09Z" finished-at="2019-10-10T06:29:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11812" started-at="2019-10-10T06:20:47Z" finished-at="2019-10-10T06:20:59Z">
+    <test name="Test" duration-ms="10873" started-at="2019-10-10T06:29:09Z" finished-at="2019-10-10T06:29:20Z">
       <class name="com.linux.connection.JSchExampleSSHConnection2">
-        <test-method status="PASS" signature="run()[pri:0, instance:com.linux.connection.JSchExampleSSHConnection2@2d6e8792]" name="run" duration-ms="11761" started-at="2019-10-10T06:20:47Z" finished-at="2019-10-10T06:20:59Z">
+        <test-method status="PASS" signature="run()[pri:0, instance:com.linux.connection.JSchExampleSSHConnection2@2d6e8792]" name="run" duration-ms="10820" started-at="2019-10-10T06:29:09Z" finished-at="2019-10-10T06:29:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->

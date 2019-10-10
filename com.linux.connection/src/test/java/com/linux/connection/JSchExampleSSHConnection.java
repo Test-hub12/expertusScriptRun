@@ -18,7 +18,7 @@ public class JSchExampleSSHConnection {
 	    String user="eip";
 	    String password="eippass";
 	   // String server=System.getProperty("server");
-	    String command1="expertus8_3 -e "+ server + " /home/eip/automation/UI\\ Automation/leena_rel8.3/getestdata/scripts/orguser_creation.rb -l debug"; 
+	    String command1="expertus8_3 -e "+ server + " /home/eip/automation/UI\\ Automation/leena_rel8.3/getestdata/scripts/uidatacreation.suite -l debug"; 
 	    try {
 		java.util.Properties config = new java.util.Properties(); 
     	config.put("StrictHostKeyChecking", "no");
