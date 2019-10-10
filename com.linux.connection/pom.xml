@@ -44,11 +44,11 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M3</version>
         <configuration>
-        <systemPropertyVariables>
-        <server>${Dserver}</server>
+<!--         <systemPropertyVariables> -->
+<!--         <server>${Dserver}</server> -->
         
         
-        </systemPropertyVariables>
+<!--         </systemPropertyVariables> -->
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
