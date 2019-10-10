@@ -5,6 +5,8 @@
  	 <parameter name="server" value="ind-lnxapp03"/> 
     <classes>
       <class name="com.linux.connection.JSchExampleSSHConnection"/>
+      <class name="com.linux.connection.JSchExampleSSHConnection2"/>
+      <class name="com.linux.connection.JSchExampleSSHConnection3"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
