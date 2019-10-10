@@ -2,16 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="152403" started-at="2019-10-09T10:20:19Z" finished-at="2019-10-09T10:22:52Z">
+  <suite name="Suite" duration-ms="312119" started-at="2019-10-10T05:48:17Z" finished-at="2019-10-10T05:53:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="152403" started-at="2019-10-09T10:20:19Z" finished-at="2019-10-09T10:22:52Z">
+    <test name="Test" duration-ms="312119" started-at="2019-10-10T05:48:17Z" finished-at="2019-10-10T05:53:29Z">
       <class name="com.linux.connection.JSchExampleSSHConnection">
-        <test-method status="PASS" signature="run()[pri:0, instance:com.linux.connection.JSchExampleSSHConnection@396a51ab]" name="run" duration-ms="152378" started-at="2019-10-09T10:20:19Z" finished-at="2019-10-09T10:22:52Z">
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:com.linux.connection.JSchExampleSSHConnection@62ee68d8]" name="run" duration-ms="312093" started-at="2019-10-10T05:48:17Z" finished-at="2019-10-10T05:53:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ind-lnxapp03]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
       </class> <!-- com.linux.connection.JSchExampleSSHConnection -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

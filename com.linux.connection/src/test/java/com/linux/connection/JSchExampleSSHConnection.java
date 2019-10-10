@@ -1,6 +1,7 @@
 package com.linux.connection;
 import java.io.InputStream;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.jcraft.jsch.Channel;
@@ -11,11 +12,12 @@ import com.jcraft.jsch.Session;
 public class JSchExampleSSHConnection {
 
 	@Test
-	public  void run() {
+	@Parameters({"server"})
+	public  void run(String server) {
 		String host="ind-expertus01.emeter.com";
 	    String user="eip";
 	    String password="eippass";
-	    String command1="expertus8_3 -e ind-lnxapp168 /home/eip/automation/UI\\ Automation/leena_rel8.3/getestdata/scripts/orguser_creation.rb -l debug"; 
+	    String command1="expertus8_3 -e "+ server + " /home/eip/automation/UI\\ Automation/leena_rel8.3/getestdata/scripts/orguser_creation.rb -l debug"; 
 	    try {
 		java.util.Properties config = new java.util.Properties(); 
     	config.put("StrictHostKeyChecking", "no");
