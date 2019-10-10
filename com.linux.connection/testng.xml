@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
  	 <parameter name="server" value="ind-lnxapp03"/> 
     <classes>
-      <class name="com.linux.connection.JSchExampleSSHConnection1"/>
+      <class name="com.linux.connection.JSchExampleSSHConnection"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
