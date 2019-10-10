@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linux.connection.JSchExampleSSHConnection" hash-for-method="run">run</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linux.connection.JSchExampleSSHConnection" hash-for-method="run(ind-lnxapp03)">run(ind-lnxapp03)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -125,9 +125,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="run">
-                  </a> <!-- run -->
+                  <a name="run(ind-lnxapp03)">
+                  </a> <!-- run(ind-lnxapp03) -->
                   <span class="method-name">run</span>
+                  <span class="parameters">(ind-lnxapp03)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -143,6 +144,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;server&quot; value=&quot;ind-lnxapp03&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.linux.connection.JSchExampleSSHConnection&quot;/&gt;
     &lt;/classes&gt;
@@ -188,12 +190,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'run')
 data.setCell(0, 2, 'com.linux.connection.JSchExampleSSHConnection')
-data.setCell(0, 3, 149197);
+data.setCell(0, 3, 262195);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -221,7 +223,7 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.linux.connection.JSchExampleSSHConnection</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">run</span>
+                <span class="method-name">run(ind-lnxapp03)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

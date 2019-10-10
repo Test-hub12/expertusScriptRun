@@ -2,12 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="149297" started-at="2019-10-10T05:10:14Z" finished-at="2019-10-10T05:12:44Z">
+  <suite name="Suite" duration-ms="262244" started-at="2019-10-10T05:57:23Z" finished-at="2019-10-10T06:01:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="149297" started-at="2019-10-10T05:10:14Z" finished-at="2019-10-10T05:12:44Z">
+    <test name="Test" duration-ms="262244" started-at="2019-10-10T05:57:23Z" finished-at="2019-10-10T06:01:45Z">
       <class name="com.linux.connection.JSchExampleSSHConnection">
-        <test-method status="PASS" signature="run()[pri:0, instance:com.linux.connection.JSchExampleSSHConnection@2d6e8792]" name="run" duration-ms="149197" started-at="2019-10-10T05:10:14Z" finished-at="2019-10-10T05:12:44Z">
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:com.linux.connection.JSchExampleSSHConnection@96532d6]" name="run" duration-ms="262195" started-at="2019-10-10T05:57:23Z" finished-at="2019-10-10T06:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ind-lnxapp03]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
